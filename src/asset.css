@@ -1,0 +1,109 @@
+.img-container {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(234, 179, 0, 0.06) 100%
+  );
+  backdrop-filter: blur(50px);
+  position: relative;
+  top: 50px;
+  left: 95px;
+  z-index: 2;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img-container img {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: calc(50% - 49.83px / 2 + 0.37px);
+  top: 25px;
+}
+
+.asset-card {
+  height: 350px;
+  width: 290px;
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(46, 49, 73, 0.1) 107.43%
+  );
+  backdrop-filter: blur(50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.asset-card_price-percent {
+  height: 40px;
+  width: 242px;
+  display: flex;
+  background: #14172b;
+  border-radius: 17px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.asset-card_price {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 31px;
+
+  text-align: center;
+
+  color: #ecf0ff;
+}
+.asset-card_percent {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 31px;
+
+  opacity: 0.9;
+  position: absolute;
+  right: 20px;
+}
+
+.asset-card_cost {
+  height: 40px;
+  width: 242px;
+  display: flex;
+  background: #14172b;
+  border-radius: 17px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 31px;
+
+  text-align: center;
+
+  color: #ecf0ff;
+}
+
+.asset-card_pairs {
+  height: 40px;
+  width: 121.75px;
+  display: flex;
+  background: #14172b;
+  border-radius: 17px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.asset-card_pairs img {
+  max-height: 25px;
+  max-width: 25px;
+}
+
+.asset-card_title {
+  margin-top: 3rem;
+}
